@@ -22,6 +22,7 @@ This is Smart Contract that mint NFT imgage into the user's wallet.
 - Mint Bublr Item
     > let instance = await BublrERC721Minter.deployed()
     > await instance.mintItem(<To Address> , <tokenURI>)
+    
     ex: 
         await instance.mintItem( "0x30d945cd2aD01FC5791F0C7eFf3a683DBCa695AB", ""https://ipfs.io/ipfs/QmW2uTCbTDhV4qbj3Mb4uZLj823oLPrppUJBS63aFWyrZX"")
 
