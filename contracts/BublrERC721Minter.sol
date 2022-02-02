@@ -20,6 +20,7 @@ contract BublrERC721Minter is ERC721URIStorage, Ownable
 
     // for opensea collection 
     function contractURI() public pure returns (string memory) {
+        // please replace with your token URI
         return "https://ipfs.io/ipfs/QmW2uTCbTDhV4qbj3Mb4uZLj823oLPrppUJBS63aFWyrZX";
     }
 
